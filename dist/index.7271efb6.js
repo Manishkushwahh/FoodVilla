@@ -36935,7 +36935,7 @@ class Profile extends _react.default.Component {
     }
     async componentDidMount() {
         //API call
-        const data = await fetch(" https://api.github.com/users/akshaymarch7");
+        const data = await fetch(" https://api.github.com/users/Manishkushwahh");
         const json = await data.json();
         console.log(json);
         this.setState({
